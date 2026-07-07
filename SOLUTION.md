@@ -120,20 +120,17 @@ Preferred format: AWS CLI support 4 main output formats
 
 Reason: i preferred table and json for me it is easy to read
 
-### Screenshot
-
-![Task 9](screenshots/task9-output-formats.png)
-
----
 
 # Reflection
 
-...
+Which AWS CLI command did you find most useful?
+aws sts get-caller-identity igitt tells me which AWS account and IAM user I am currently logged in as. 
+
+Which command output was the easiest to understand?
+The --output table format was the easiest to understand because it displays information in a clear and organized table instead of raw JSON.
+
+How does using the AWS CLI compare to navigating the AWS Management Console?
+AWS Console is easier for beginners. but AWS Cli is powerful and faster
+
 
 ---
-
-# Bonus
-
-### Screenshot
-
-![Bonus](screenshots/bonus-vpc.png)
