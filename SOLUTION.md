@@ -1,8 +1,8 @@
 # AWS CLI Basics - Solution
 
-Name:
+Name: Adnan Nooruddin
 
-GitHub Username:
+GitHub Username: adnannooruddin21-hue
 
 ---
 
@@ -50,11 +50,11 @@ GitHub Username:
 
 # Task 4 - AWS Regions
 
-Number of Regions:
+Number of Regions: 17
 
-Default Region:
+Default Region: us-east-1
 
-Closest Region:
+Closest Region: eu-central-1
 
 ### Screenshot
 
@@ -64,9 +64,10 @@ Closest Region:
 
 # Task 5 - Availability Zones
 
-Number of AZs:
+Number of AZs: 6
 
 Why are multiple AZs important?
+Multiple Availability Zones are important because they keep applications running even if one data center fails, providing better reliability and uptime for production workloads.
 
 ### Screenshot
 
@@ -76,9 +77,9 @@ Why are multiple AZs important?
 
 # Task 6 - S3 Investigation
 
-Buckets:
+Buckets: 0
 
-Reason if none exist:
+Reason if none exist: because i have not created
 
 ### Screenshot
 
@@ -88,9 +89,10 @@ Reason if none exist:
 
 # Task 7 - IAM Investigation
 
-IAM Users:
+IAM Users: 1
 
 Why avoid using the root account?
+IAM users are safer because they follow the principle of least privilege, provide better control, and reduce the risk of exposing the powerful root account.
 
 ### Screenshot
 
@@ -100,11 +102,11 @@ Why avoid using the root account?
 
 # Task 8 - EC2 Investigation
 
-Running Instances:
+Running Instances: 0
 
-Key Pairs:
+Key Pairs: 0
 
-Instance Types:
+Instance Types: 0
 
 ### Screenshot
 
@@ -114,9 +116,9 @@ Instance Types:
 
 # Task 9 - Output Formats
 
-Preferred format:
+Preferred format: AWS CLI support 4 main output formats
 
-Reason:
+Reason: i preferred table and json for me it is easy to read
 
 ### Screenshot
 
