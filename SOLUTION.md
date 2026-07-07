@@ -1,137 +1,139 @@
 # AWS CLI Basics - Solution
 
-Name:
+**Name:**
 
-GitHub Username:
+**GitHub Username:**
 
 ---
 
-# Task 1 - Verify AWS CLI
+# Part 1 – Verify AWS CLI Installation
 
-## aws --version
+## Command Output
+
+### aws --version
 
 ```text
 
 ```
 
-### Screenshot
-
-![Task 1](screenshots/task1-aws-version.png)
-
----
-
-# Task 2 - AWS Configuration
-
-## aws configure list
+### aws configure list
 
 ```text
 
 ```
 
-### Screenshot
-
-![Task 2](screenshots/task2-configure-list.png)
-
----
-
-# Task 3 - Caller Identity
-
-## aws sts get-caller-identity
+### aws sts get-caller-identity
 
 ```text
 
 ```
 
-### Screenshot
+### Screenshots
 
-![Task 3](screenshots/task3-caller-identity.png)
+![AWS Version](screenshots/task1-aws-version.png)
 
----
+![AWS Configure List](screenshots/task1-configure-list.png)
 
-# Task 4 - AWS Regions
-
-Number of Regions:
-
-Default Region:
-
-Closest Region:
-
-### Screenshot
-
-![Task 4](screenshots/task4-regions.png)
+![Caller Identity](screenshots/task1-caller-identity.png)
 
 ---
 
-# Task 5 - Availability Zones
+# Part 2 – AWS Account Information
 
-Number of AZs:
+Answer the following:
 
-Why are multiple AZs important?
+**AWS Account ID:**
+
+**IAM User ARN:**
+
+**Default Region:**
+
+**Configured Output Format:**
 
 ### Screenshot
 
-![Task 5](screenshots/task5-availability-zones.png)
+![Account Information](screenshots/task2-account-information.png)
 
 ---
 
-# Task 6 - S3 Investigation
+# Part 3 – AWS Regions & Availability Zones
 
-Buckets:
+## Regions
 
-Reason if none exist:
+**How many AWS Regions are available?**
+
+**Which Region is configured as your default?**
 
 ### Screenshot
 
-![Task 6](screenshots/task6-s3-buckets.png)
+![AWS Regions](screenshots/task3-regions.png)
 
 ---
 
-# Task 7 - IAM Investigation
+## Availability Zones
 
-IAM Users:
+**How many Availability Zones exist in your current Region?**
 
-Why avoid using the root account?
+**Why should production workloads use multiple Availability Zones?**
 
 ### Screenshot
 
-![Task 7](screenshots/task7-iam-users.png)
+![Availability Zones](screenshots/task3-availability-zones.png)
 
 ---
 
-# Task 8 - EC2 Investigation
+# Part 4 – Investigating IAM
 
-Running Instances:
+**How many IAM users exist?**
 
-Key Pairs:
+**Why is using IAM users safer than using the root account?**
 
-Instance Types:
+### Screenshots
 
-### Screenshot
+![IAM Users](screenshots/task4-list-users.png)
 
-![Task 8](screenshots/task8-ec2-info.png)
+![IAM Account Summary](screenshots/task4-account-summary.png)
 
 ---
 
-# Task 9 - Output Formats
+# Part 5 – Investigating EC2
 
-Preferred format:
+**Are there any EC2 instances running?**
 
-Reason:
+**Are any EC2 Key Pairs configured?**
 
-### Screenshot
+**What information does AWS return for the `t3.micro` instance type?**
 
-![Task 9](screenshots/task9-output-formats.png)
+### Screenshots
+
+![Describe Instances](screenshots/task5-describe-instances.png)
+
+![Key Pairs](screenshots/task5-key-pairs.png)
+
+![Instance Types](screenshots/task5-instance-types.png)
 
 ---
 
 # Reflection
 
-...
+### 1. Which AWS CLI command did you find most useful?
 
 ---
 
-# Bonus
+### 2. Which command output was the easiest to understand?
 
-### Screenshot
+---
 
-![Bonus](screenshots/bonus-vpc.png)
+### 3. How does using the AWS CLI compare to navigating the AWS Management Console?
+
+---
+
+# Bonus Challenge
+
+**Service Chosen:**
+
+**What does the service do?**
+
+**What problem does it solve?**
+
+**Where do you think it might be used?**
