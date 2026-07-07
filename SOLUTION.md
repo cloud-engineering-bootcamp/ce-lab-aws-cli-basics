@@ -1,8 +1,8 @@
 # AWS CLI Basics - Solution
 
-Name:
+Name:Pragash KUMARAVEL
 
-GitHub Username:
+GitHub Username:pragashkumar14
 
 ---
 
@@ -50,11 +50,11 @@ GitHub Username:
 
 # Task 4 - AWS Regions
 
-Number of Regions:
+Number of Regions:17
 
-Default Region:
+Default Region:eu-west-3
 
-Closest Region:
+Closest Region:  eu-central-1 
 
 ### Screenshot
 
@@ -64,9 +64,9 @@ Closest Region:
 
 # Task 5 - Availability Zones
 
-Number of AZs:
+Number of AZs:6
 
-Why are multiple AZs important?
+Why are multiple AZs important? AZ's are important because they provide fault tolerance and high availability.
 
 ### Screenshot
 
@@ -88,9 +88,9 @@ Reason if none exist:
 
 # Task 7 - IAM Investigation
 
-IAM Users:
+IAM Users:1 > Admin
 
-Why avoid using the root account?
+Why avoid using the root account? Using IAM users is safer because to the Principle of least Privilege
 
 ### Screenshot
 
@@ -100,11 +100,11 @@ Why avoid using the root account?
 
 # Task 8 - EC2 Investigation
 
-Running Instances:
+Running Instances:No
 
-Key Pairs:
+Key Pairs:  aws test pragash 
 
-Instance Types:
+Instance Types:t3.micro
 
 ### Screenshot
 
@@ -114,9 +114,9 @@ Instance Types:
 
 # Task 9 - Output Formats
 
-Preferred format:
+Preferred format:vCPU
 
-Reason:
+Reason:user friendly 
 
 ### Screenshot
 
@@ -125,7 +125,9 @@ Reason:
 ---
 
 # Reflection
-
+1, aws ec2 describe-instances 
+2,--output table
+3, AWS CLI is significantly faster for repeatable tasks. Once you have a command structure, you can execute complex queries in seconds, whereas the Management Console often requires multiple clicks and page loads.
 ...
 
 ---
