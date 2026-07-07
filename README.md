@@ -247,16 +247,16 @@ Before submitting, make sure you have:
 
 Your lab is complete when:
 
-- [ ] AWS CLI is installed and working
-- [ ] AWS account information retrieved successfully
-- [ ] AWS Regions explored
-- [ ] Availability Zones investigated
-- [ ] IAM information retrieved
-- [ ] EC2 information retrieved
-- [ ] Reflection questions answered
-- [ ] All screenshots saved with the correct filenames
-- [ ] Repository pushed to GitHub
-- [ ] Pull Request submitted
+- [x ] AWS CLI is installed and working
+- [x ] AWS account information retrieved successfully
+- [x ] AWS Regions explored
+- [x ] Availability Zones investigated
+- [x ] IAM information retrieved
+- [x ] EC2 information retrieved
+- [x ] Reflection questions answered
+- [x ] All screenshots saved with the correct filenames
+- [x ] Repository pushed to GitHub
+- [x ] Pull Request submitted
 
 ---
 
