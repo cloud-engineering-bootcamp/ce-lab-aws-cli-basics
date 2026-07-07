@@ -1,8 +1,8 @@
 # AWS CLI Basics - Solution
 
-Name:
+Name: Julio Aldana
 
-GitHub Username:
+GitHub Username: Jcaldana97
 
 ---
 
@@ -10,7 +10,7 @@ GitHub Username:
 
 ## aws --version
 
-```text
+```aws-cli/2.35.11 Python/3.14.5 Windows/11 exe/AMD64
 
 ```
 
@@ -24,7 +24,11 @@ GitHub Username:
 
 ## aws configure list
 
-```text
+```NAME       : VALUE                    : TYPE             : LOCATION
+profile    : <not set>                : None             : None
+access_key : ****************DG3T     : shared-credentials-file : 
+secret_key : ****************tzwJ     : shared-credentials-file : 
+region     : us-east-1                : config-file      : ~/.aws/config
 
 ```
 
@@ -38,7 +42,11 @@ GitHub Username:
 
 ## aws sts get-caller-identity
 
-```text
+```{                                                                                 
+    "UserId": "AIDA4COT7F5XWDL6SF5LE",
+    "Account": "829910101871",
+    "Arn": "arn:aws:iam::829910101871:user/julioaldana"
+}
 
 ```
 
@@ -50,11 +58,11 @@ GitHub Username:
 
 # Task 4 - AWS Regions
 
-Number of Regions:
+Number of Regions: 17
 
-Default Region:
+Default Region: us-east-1
 
-Closest Region:
+Closest Region: eu-central-1 (Germany)
 
 ### Screenshot
 
@@ -64,9 +72,9 @@ Closest Region:
 
 # Task 5 - Availability Zones
 
-Number of AZs:
+Number of AZs: 6
 
-Why are multiple AZs important?
+Why are multiple AZs important? To have more resources available in case one server is overloaded.
 
 ### Screenshot
 
@@ -76,9 +84,9 @@ Why are multiple AZs important?
 
 # Task 6 - S3 Investigation
 
-Buckets:
+Buckets: 0
 
-Reason if none exist:
+Reason if none exist: No S3 bucket has been created.
 
 ### Screenshot
 
@@ -88,9 +96,9 @@ Reason if none exist:
 
 # Task 7 - IAM Investigation
 
-IAM Users:
+IAM Users: 1
 
-Why avoid using the root account?
+Why avoid using the root account? Because with IAM users you can control the permisions the user has, reducing the security risks. 
 
 ### Screenshot
 
@@ -100,11 +108,11 @@ Why avoid using the root account?
 
 # Task 8 - EC2 Investigation
 
-Running Instances:
+Running Instances: 0
 
-Key Pairs:
+Key Pairs: 0
 
-Instance Types:
+Instance Types: EbsInfo, EbsOptimizedInfo, MemoryInfo, NetworkInfo, ConnectionTrackingConfiguration, NetworkCards, NitroTpmInfo, SupportedVersions, PlacementGroupInfo, SupportedStrategies, ProcessorInfo
 
 ### Screenshot
 
@@ -114,9 +122,9 @@ Instance Types:
 
 # Task 9 - Output Formats
 
-Preferred format:
+Preferred format: Table
 
-Reason:
+Reason: Most readable format for humans
 
 ### Screenshot
 
@@ -126,7 +134,14 @@ Reason:
 
 # Reflection
 
-...
+1. Which AWS CLI command did you find most useful?
+Ans: By now the command **aws ec2 describe-instances** is for me the most useful since it tells you which instances are running without needing to go to AWS console.
+
+2. Which command output was the easiest to understand?
+Ans: **aws --version** is really simple and tells you if you have installed aws cli correctly
+
+3. How does using the AWS CLI compare to navigating the AWS Management Console?
+Ans: It is more powerful and comfortable to use CLI commands, since you can choose which command windows to use and you are closer to your application files. 
 
 ---
 
