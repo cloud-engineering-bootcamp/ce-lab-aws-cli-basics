@@ -67,11 +67,11 @@ Answer the following:
 
 **Which Region is configured as your default?** Stockholm
 
-### Screenshot
+### Screenshots
 
 ![AWS Regions](screenshots/task3-regions.png)
 
----
+![IAM Account Summary](screenshots/task4-account-summary.png)
 
 ## Availability Zones
 
@@ -80,11 +80,11 @@ Answer the following:
 **Why should production workloads use multiple Availability Zones?** 
 Multiple Availability Zones (AZs) are crucial because they prevent a single physical disaster or power outage from taking your entire business offline. High Availability & Fault Tolerance , Redundancy Without High Latency are  exactly why they matter.
 
-### Screenshot
+**Are any EC2 Key Pairs configured?**
 
 ![Availability Zones](screenshots/task3-availability-zones.png)
 
----
+### Screenshots
 
 # Part 4 – Investigating IAM
 
