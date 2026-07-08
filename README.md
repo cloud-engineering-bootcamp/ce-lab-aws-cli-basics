@@ -60,7 +60,7 @@ ce-lab-aws-cli-basics/
 
 # Part 1 – Verify AWS CLI Installation
 
-Run the following commands:
+Run the following commands: 
 
 ```bash
 aws --version
@@ -200,9 +200,7 @@ task5-instance-types.png
 Answer the following questions in **SOLUTION.md**:
 
 1. Which AWS CLI command did you find most useful?
-
 2. Which command output was the easiest to understand?
-
 3. How does using the AWS CLI compare to navigating the AWS Management Console?
 
 ---
@@ -321,14 +319,14 @@ If necessary, restart your terminal after installing AWS CLI.
 
 # Grading Rubric (100 Points)
 
-| Criteria | Points |
-|----------|-------:|
-| AWS CLI Installation & Configuration | 15 |
-| AWS Account Investigation | 20 |
-| Regions & Availability Zones | 20 |
-| IAM Investigation | 20 |
-| EC2 Investigation | 15 |
-| Reflection | 10 |
+| Criteria                             | Points |
+| ------------------------------------ | -----: |
+| AWS CLI Installation & Configuration |     15 |
+| AWS Account Investigation            |     20 |
+| Regions & Availability Zones         |     20 |
+| IAM Investigation                    |     20 |
+| EC2 Investigation                    |     15 |
+| Reflection                           |     10 |
 
 ---
 
